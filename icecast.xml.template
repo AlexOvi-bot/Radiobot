@@ -1,0 +1,18 @@
+<icecast>
+  <limits>
+    <clients>100</clients>
+  </limits>
+
+  <authentication>
+    <source-password>{{SOURCE_PASSWORD}}</source-password>
+    <admin-user>admin</admin-user>
+    <admin-password>{{SOURCE_PASSWORD}}</admin-password>
+  </authentication>
+
+  <listen-socket>
+    <port>{{PORT}}</port>
+    <bind-address>0.0.0.0</bind-address>
+  </listen-socket>
+
+  <!-- остальная конфигурация -->
+</icecast>
